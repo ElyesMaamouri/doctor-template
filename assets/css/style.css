@@ -19,6 +19,14 @@ body {
     padding-right: 0 !important;
 }
 
+.pp {
+    border: 1px solid red;
+}
+
+.mm {
+    border: 1px solid black
+}
+
 .main-container {
     max-width: 90%;
     margin: 0 auto;
@@ -4094,4 +4102,529 @@ Scrollbar Table my-relatives
         margin-top: -2px;
         text-align: center;
     }
+}
+
+/*--------------------------------------------------------------
+# 5- Page Dashboard
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Dashboard
+--------------------------------------------------------------*/
+#dashboard .doctor-dashboard {
+    display: flex;
+    gap: 40px;
+    padding-left: 12px;
+    margin-top: 38px;
+}
+
+#dashboard .list-doctor {
+    width: 39.8%;
+}
+
+#dashboard .document-patient {
+    width: 54.2%;
+}
+
+#dashboard .title-liste-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+
+#dashboard .details-meeting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+
+#dashboard .meeting-patient {
+    width: 50%;
+}
+
+#dashboard .dropdown-toggle::after {
+    content: none;
+}
+
+#dashboard .btn-patient {
+    width: 276px;
+    height: 44px;
+    background-color: #fdfdfe;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CCCCCC;
+    float: right;
+    border: 1px solid #e5e5e6;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 18px;
+
+}
+
+#dashboard .patient-menu {
+    display: flex;
+    gap: 22px;
+}
+
+#dashboard .patient-menu p {
+    margin: 0;
+}
+
+#dashboard .icon-arrow {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+}
+
+#dashboard .style-dropdown-menu {
+    width: 276px;
+    overflow-y: scroll;
+    max-height: 125px;
+
+}
+
+#dashboard .style-dropdown-menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6C757D;
+
+}
+
+#dashboard .details-patient {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+}
+
+#dashboard .card-of-doctor {
+    background: #FFFFFF;
+    padding: 20px 14px 32px 32px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#dashboard .doctor-image {
+    width: 81px;
+    height: 81px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#dashboard .top-card {
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .name-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #413C3B;
+    margin: 0;
+}
+
+#dashboard .type-doctor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #77899E;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+#dashboard .next-appointment,
+.number-appointment {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+#dashboard .next-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+}
+
+#dashboard .number-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495068;
+    margin: 0;
+}
+
+
+#dashboard .bottom-card {
+    margin-top: 26px;
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .take-appointment {
+    background: #0CB8B6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    height: 42px;
+
+}
+
+
+#dashboard .take-appointment p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#dashboard .consultation-details {
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #0CB8B6;
+    width: 200px;
+    height: 42px;
+
+}
+
+
+#dashboard .consultation-details p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0CB8B6;
+    margin: 0;
+}
+
+#dashboard .selected-card {
+    background: #FCFFFF;
+    border: 1px solid #0CB8B6;
+
+}
+
+#dashboard .paper-patient {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 27px 0px 27px 0px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+
+#dashboard .file-image {
+    width: 51px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 184, 182, 0.1);
+    border-radius: 9px;
+}
+
+#dashboard .type-paper {
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .name-paper {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    margin: 0;
+}
+
+#dashboard .date-upload-paper {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+    margin-top: -6px;
+}
+
+#dashboard .left-details {
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .image-patient {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#dashboard .taked-document p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#dashboard .taked-document {
+    align-items: baseline;
+    display: flex;
+    gap: 15px;
+}
+
+#dashboard .row-document {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#dashboard .right-details {
+    display: flex;
+    gap: 20px;
+}
+
+#dashboard .patient-name {
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
+
+#dashboard .patient-name p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D98AF;
+    margin: 0;
+}
+
+#dashboard .consult-tag {
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4F41E9;
+}
+
+#dashboard .consult-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+
+}
+
+#dashboard .img-consult {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -6px;
+}
+
+#dashboard .hr {
+    width: 93%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 28px;
+    opacity: initial;
+    border: 1px solid #EFEFEF;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+@media(max-width :1320px) {
+    #dashboard .row-document {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    #dashboard .left-details {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    #dashboard .right-details {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    #dashboard .paper-patient {
+        padding: 27px 15px 27px 15px;
+
+    }
+}
+
+
+@media(max-width :1300px) {
+    #dashboard .bottom-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #dashboard .take-appointment {
+        width: 100%;
+    }
+
+    #dashboard .consultation-details {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media(max-width : 991px) {
+
+
+    #dashboard .list-doctor {
+        width: 100%;
+    }
+
+    #dashboard .document-patient {
+        width: 100%;
+    }
+
+    #dashboard .doctor-dashboard {
+        flex-direction: column;
+    }
+    #dashboard .doctor-dashboard {
+        padding-left: 0;
+    }
+
+    #dashboard .image-patient {
+   
+        width: 60px;
+        height: 60px;
+       
+    }
+}
+
+@media(max-width :768px) {
+    #dashboard .details-meeting {
+        flex-direction: column;
+    }
+
+    #dashboard .meeting-patient {
+        width: 100%;
+    }
+
+    #dashboard .input-filed-speciality {
+        float: initial;
+    }
+
+    #dashboard .btn-patient {
+        width: 100%;
+    }
+
+    #dashboard .style-dropdown-menu {
+        width: 100%;
+    }
+
+    #dashboard .top-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #dashboard .next-appointment,
+    .number-appointment {
+        justify-content: center;
+    }
+
+    #dashboard .card-of-doctor {
+        padding: 20px 14px 32px 14px;
+    }
+
+    #dashboard .file-image, .patient-name {
+        margin: 0 auto;
+    }
+
+    #dashboard .left-details, .right-details {
+        flex-direction: column;
+    }
+
+    #dashboard .type-paper, .patient-name {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    #dashboard .patient-name {
+        flex-direction: column;
+        text-align: center; 
+    }
+ 
+    #dashboard  .taked-document {
+       justify-content: center;
+    }
+
+    #dashboard  .piture-space {
+        margin: 0 auto;
+    }
+
+    #dashboard .row-document {
+        flex-direction: column-reverse;
+    }
+    #dashboard .img-consult {
+        margin-top: 6px;
+    }
+
+    #dashboard  .hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
