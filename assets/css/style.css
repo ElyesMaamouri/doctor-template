@@ -888,6 +888,8 @@ input[type=number] {
     #doctor .find-all-doctor {
         padding-left: 10px;
         padding-right: 10px;
+        width: 100%;
+        text-align: center;
     }
 
     #doctor .main-doctor {
@@ -897,14 +899,6 @@ input[type=number] {
 
     #doctor .doctor-drawing {
         display: none;
-    }
-
-    #doctor .find-all-doctor {
-        width: 100%;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
     }
 
     #doctor .title-doctor {
@@ -4542,15 +4536,16 @@ Scrollbar Table my-relatives
     #dashboard .doctor-dashboard {
         flex-direction: column;
     }
+
     #dashboard .doctor-dashboard {
         padding-left: 0;
     }
 
     #dashboard .image-patient {
-   
+
         width: 60px;
         height: 60px;
-       
+
     }
 }
 
@@ -4589,40 +4584,45 @@ Scrollbar Table my-relatives
         padding: 20px 14px 32px 14px;
     }
 
-    #dashboard .file-image, .patient-name {
+    #dashboard .file-image,
+    .patient-name {
         margin: 0 auto;
     }
 
-    #dashboard .left-details, .right-details {
+    #dashboard .left-details,
+    .right-details {
         flex-direction: column;
     }
 
-    #dashboard .type-paper, .patient-name {
+    #dashboard .type-paper,
+    .patient-name {
         flex-direction: column;
         text-align: center;
 
     }
+
     #dashboard .patient-name {
         flex-direction: column;
-        text-align: center; 
-    }
- 
-    #dashboard  .taked-document {
-       justify-content: center;
+        text-align: center;
     }
 
-    #dashboard  .piture-space {
+    #dashboard .taked-document {
+        justify-content: center;
+    }
+
+    #dashboard .piture-space {
         margin: 0 auto;
     }
 
     #dashboard .row-document {
         flex-direction: column-reverse;
     }
+
     #dashboard .img-consult {
         margin-top: 6px;
     }
 
-    #dashboard  .hr {
+    #dashboard .hr {
         width: 100%;
         margin-left: 0;
     }
